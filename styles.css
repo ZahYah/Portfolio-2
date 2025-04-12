@@ -1,0 +1,162 @@
+*{
+  margin: 0;
+  padding: 0;
+ 
+}
+body{ 
+  overflow-x: hidden;
+}
+.home-page {
+  height: 100vh;
+  width: 100%;
+  background-image: url("./Page\ 1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  position: relative;
+  overflow:hidden ;
+}
+.home-page div {
+position: absolute;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+
+}
+.home-page div p {
+  color: #152547;
+  margin-bottom: 20px;
+}
+.home-page>div>p {
+  font-size: 60px;
+}
+.frontend {
+  font-size: 36px;
+   font-family: "Leckerli One", cursive;
+}
+.circuit-1 {
+  position: absolute;
+  left: -90px;
+  top: -60px;
+  height: 50vh;
+  width: 30%;
+  transform: rotate(33deg);
+}
+.circuit-2 {
+  position: absolute;
+  height: 50vh;
+  width: 30%;
+  bottom: -40px;
+  right: -90px;
+  transform: rotate(199deg);
+}
+/* page-2 */
+.page-2{
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.profile-pic{
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%; 
+  margin:40px auto;
+  
+}
+h2 {
+  color:#5271ff;
+  text-align: center;
+  font-size: 37px;
+}
+.page-2 p { 
+  width:35%;
+  color: #4d4d4d;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 30px;
+}
+/* Section 3 */
+.page-3{
+  padding: 30px;
+ }
+ .page-3 h2{
+  margin-bottom: 80px;
+ }
+.skill-pic{ 
+  width: 300px;
+  height: 200px;
+  margin-left: 100px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.skill{
+ width: 100%;
+ display: flex;
+gap: 100px;
+margin-bottom: 100px;
+}
+.page-3 p{ 
+  color: #4d4d4d;
+  font-size: 20px;
+  width: 50%;
+  text-align: center;
+}
+/* Page 4 */
+.page-4{
+  height: 100vh;
+  position: relative;
+}
+.page-4 h2{
+  width: 50%;
+  margin: 10px auto;
+}
+.page-4 p{ 
+  color: #4d4d4d;
+  font-size: 20px;
+  width: 42%;
+  margin: 30px auto;
+  text-align: center;
+
+}
+button { 
+  border: none;
+  color: white;
+  background-color: #5271ff;        
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    width: 150px;
+    height: 60px;
+    padding: 15px;
+    font-size: 20px;
+}
+button:hover { 
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+  opacity: 0.8;
+}
+
+
+footer{
+position: absolute;
+bottom: 0px;
+width: 100%;
+height: 20vh;
+background-color: #152547;
+display: flex;
+justify-content: center;
+align-items: flex-start;
+gap: 20%;
+padding: 40px;
+ }
+ footer a{
+  color: white;
+  font-size: 26px;
+  text-decoration: none;
+ }
